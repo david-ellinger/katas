@@ -4,3 +4,5 @@ A kata, or code kata, is defined as an exercise in programming which helps hone 
 # Sources
 https://www.reddit.com/r/dailyprogrammer/wiki/challenges
 https://github.com/praqma-training/docker-katas
+https://codekata.com
+https://codewars.com

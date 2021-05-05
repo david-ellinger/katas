@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  hangman:
+    build: .
+    # stdin_open: true
+    # tty: true
+    volumes:
+      - .:/hangman
+
+  test:
+    build:
+      context: .
+      dockerfile: pytest.dockerfile
+    volumes:
+      - .:/hangman
+    command: pytest tests/test_hangman.py

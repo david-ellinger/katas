@@ -13,4 +13,4 @@ services:
       dockerfile: pytest.dockerfile
     volumes:
       - .:/hangman
-    command: pytest tests/test_hangman.py
+    command: pytest

@@ -1,9 +1,0 @@
-version: "3.8"
-services:
-  address_book:
-    build: .
-    volumes:
-      - ./:/home/app_user/app
-    stdin_open: true
-    tty: true
-    command: python ch3_address_book.py

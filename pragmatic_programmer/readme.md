@@ -1,7 +1,5 @@
 # Commands
 
-`docker build -t pragmatic_programmer --rm .`
-`docker run -it --name pragmatic_programmer --rm pragmatic_programmer`
+`python3 -m venv env`
 
 `python ch3_address_book.py`
-

@@ -1,4 +1,4 @@
-name: Python package
+name: Encode / Decode Python App
 
 on: [push]
 

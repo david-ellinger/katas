@@ -1,4 +1,4 @@
-name: Encode / Decode Python App
+name: Tkinter Encode / Decode Python App
 
 on: [push]
 

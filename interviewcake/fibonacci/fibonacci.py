@@ -5,10 +5,9 @@ and returns the nth Fibonacci number.
 
 
 def fib(n):
-
-    # Compute the nth Fibonacci number
-
-    number = None
-    for i in range(n):
-        number = i
-    return number
+    if n < 0:
+        raise Exception("Value must be a positive integer")
+    if n <= 1:
+        return n
+    else:
+        return (fib(n-1) + fib(n-2))

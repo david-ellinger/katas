@@ -10,6 +10,9 @@ Various levels of pretty basic projects are stored in `projects/`
 
 # Book Excersises
 
+# Interviewcake
+[![Python package](https://github.com/david-ellinger/katas/actions/workflows/fibonacci.yaml/badge.svg)](https://github.com/david-ellinger/katas/actions/workflows/fibonacci.yaml)
+
 # Sources
 https://www.reddit.com/r/dailyprogrammer/wiki/challenges
 https://github.com/praqma-training/docker-katas

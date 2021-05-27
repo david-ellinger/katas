@@ -1,10 +1,9 @@
-name: Hangman Python App
+name: Fibonacci Python App
 
 on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -20,11 +19,11 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8 pytest
-        pip install -r projects/hangman/requirements-test.txt
+        pip install -r interviewcake/fibonacci/requirements-test.txt
     - name: Lint with flake8
       run: |
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        flake8 projects/hangman/* --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+        flake8 interviewcake/fibonacci/* --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest projects/hangman/tests/*
+        pytest interviewcake/fibonacci/test_fibonacci.py
